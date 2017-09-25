@@ -36,9 +36,7 @@ public class StaticList<T> implements List<T> {
             list = aux.clone();
             size = newSize;
             next += 1;
-
         }
-
     }
 
     @Override
